@@ -43,15 +43,22 @@
                 <div class="hero__form-page"></div>
             </div>
             <div class="main-content gallery">
-                <section class="gallery__list">
-                    <div class="gallery__heading container">
+                <div class="container">
+                    <div class="gallery__heading ">
                         <h2 class="gallery__heading-title">Фото и видео</h2>
                         <div class="gallery__heading-subtitle">Не можете решиться на путешествие из-за курса?
                             Фотографии помогут вам забыть о политике и экономике.</div>
                     </div>
+                    <section class="gallery__list">
                         <div class="gallery__item gallery__item_big">
+                            <!-- <picture class="gallery__picture">
+                                <source media="(max-width: 767px)" srcset="./img/inhtml/photo-1-mobile.jpg">
+                                <source media="(min-width: 768px and max-width: 1024px )"
+                                    srcset="./img/inhtml/photo-1-tablet.jpg">
+                                <img src="./img/inhtml/photo-1.jpg" alt="">
+                            </picture> -->
                             <div class="gallery__picture gallery__picture_big">
-                                <img src="./img/inhtml/photo-1.png" alt="" class="gallery__img">
+                                <img src="./img/inhtml/photo-1.jpg" alt="">
                             </div>
                             <div class="gallery__descr">
                                 <div class="gallery__text">
@@ -60,7 +67,27 @@
                                 </div>
                                 <div class="gallery__like">
                                     <div class="gallery__icon">
-                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-img">
+                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-white">
+                                        <img src="./img/icons/like-icon-grey.png" alt="" class="gallery__icon-grey">
+                                    </div>
+                                    <div class="gallery__count">1350</div>
+                                </div>
+                                </>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__picture">
+                                <img src="./img/inhtml/photo-2.jpg" alt="" class="gallery__img">
+                            </div>
+                            <div class="gallery__descr">
+                                <div class="gallery__text">
+                                    <div class="gallery__name">неродные просторы</div>
+                                    <div class="gallery__author">Автор фото: Борис</div>
+                                </div>
+                                <div class="gallery__like">
+                                    <div class="gallery__icon">
+                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-white">
+                                        <img src="./img/icons/like-icon-grey.png" alt="" class="gallery__icon-grey">
                                     </div>
                                     <div class="gallery__count">1350</div>
                                 </div>
@@ -68,7 +95,7 @@
                         </div>
                         <div class="gallery__item">
                             <div class="gallery__picture">
-                                <img src="./img/inhtml/photo-2.png" alt="" class="gallery__img">
+                                <img src="./img/inhtml/photo-3.jpg" alt="" class="gallery__img">
                             </div>
                             <div class="gallery__descr">
                                 <div class="gallery__text">
@@ -77,24 +104,8 @@
                                 </div>
                                 <div class="gallery__like">
                                     <div class="gallery__icon">
-                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-img">
-                                    </div>
-                                    <div class="gallery__count">1350</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery__item">
-                            <div class="gallery__picture">
-                                <img src="./img/inhtml/photo-3.png" alt="" class="gallery__img">
-                            </div>
-                            <div class="gallery__descr">
-                                <div class="gallery__text">
-                                    <div class="gallery__name">неродные просторы</div>
-                                    <div class="gallery__author">Автор фото: Борис</div>
-                                </div>
-                                <div class="gallery__like">
-                                    <div class="gallery__icon">
-                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-img">
+                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-white">
+                                        <img src="./img/icons/like-icon-grey.png" alt="" class="gallery__icon-grey">
                                     </div>
                                     <div class="gallery__count">1350</div>
                                 </div>
@@ -111,31 +122,35 @@
                                 </div>
                                 <div class="gallery__like">
                                     <div class="gallery__icon">
-                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-img">
+                                        <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-white">
+                                        <img src="./img/icons/like-icon-grey.png" alt="" class="gallery__icon-grey">
                                     </div>
                                     <div class="gallery__count">1350</div>
                                 </div>
                             </div>
                         </div>
-                </section>
-                <section class="blog">
-                    <div class="container">
-                        <div class="gallery__heading">
-                            <h2 class="gallery__heading-title">Все еще сомневаетесь?</h2>
-                            <div class="gallery__heading-subtitle">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!.</div>
-                        </div>
-                        <div class="blog__list">
-                            <div class="blog__item">
-                                <div class="blog__video">
-                                    <video src="./img/inhtml/video-blog.mp4" controls preload="metadata"></video>
-                                </div>
-                                <div class="blog__descr">
-                                    
+                    </section>
+                    <section class="blog">
+                        <div class="container">
+                            <div class="gallery__heading">
+                                <h2 class="gallery__heading-title">Все еще сомневаетесь?</h2>
+                                <div class="gallery__heading-subtitle">Смотрите видеопрезентацию и скорее за билетами, пока
+                                    они не подорожали в очередной раз!.</div>
+                            </div>
+                            <div class="blog__list">
+                                <div class="blog__item">
+                                    <div class="blog__video">
+                                        <video src="./img/inhtml/video-blog.mp4" controls preload="metadata"></video>
+                                    </div>
+                                    <div class="blog__descr">
+    
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
+                
             </div>
             <footer class="footer">
                 <div class="container">
