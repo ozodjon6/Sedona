@@ -19,23 +19,37 @@
                 <div class="container">
                     <header class="header">
                         <nav class="main-nav">
-                            <ul class="main-nav__list mobile-list">
-                                <li class="main-nav__item">
-                                    <a href="#" class="main-nav__link">Главная</a>
-                                </li>
-                                <li class="main-nav__item">
-                                    <a href="#" class="main-nav__link">Фото и видео</a>
-                                </li>
-                                <li class="main-nav__item">
-                                    <a href="index.html" class="main-nav__logo"></a>
-                                </li>
-                                <li class="main-nav__item">
-                                    <a href="form.html" class="main-nav__link">Форма отзыва</a>
-                                </li>
-                                <li class="main-nav__item">
-                                    <a href="#" class="main-nav__link">HTML Academy</a>
-                                </li>
-                            </ul>
+                            <div class="main-nav__inner">
+                                <div class="main-nav__side">
+                                    <ul class="main-nav__list">
+                                        <li class="main-nav__item">
+                                            <a href="index.html" class="main-nav__link">Главная</a>
+                                        </li>
+                                        <li class="main-nav__item">
+                                            <a href="gallery-page.html" class="main-nav__link">Фото и видео</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-nav__logo">
+                                    <a href="index.html" class="main-nav__logo-img">
+                                        <picture class="main-nav__picture">
+                                            <source media="(min-width: 768px )" srcset="./img/inhtml/logo.png">
+                                            <source media="(max-width: 767px)" srcset="./img/inhtml/tabdes-logo.png">
+                                            <img src="./img/inhtml/logo.png" alt="Site Logo">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="main-nav__side">
+                                    <ul class="main-nav__list">
+                                        <li class="main-nav__item">
+                                            <a href="form.html" class="main-nav__link">Форма отзыва</a>
+                                        </li>
+                                        <li class="main-nav__item">
+                                            <a href="#" class="main-nav__link">HTML Academy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </nav>
                         <div class="menu__button">
                             <div class="menu__humburger"></div>
@@ -69,12 +83,6 @@
                     </div>
                     <section class="gallery__list">
                         <div class="gallery__item gallery__item_big">
-                            <!-- <picture class="gallery__picture">
-                                <source media="(max-width: 767px)" srcset="./img/inhtml/photo-1-mobile.jpg">
-                                <source media="(min-width: 768px and max-width: 1024px )"
-                                    srcset="./img/inhtml/photo-1-tablet.jpg">
-                                <img src="./img/inhtml/photo-1.jpg" alt="">
-                            </picture> -->
                             <div class="gallery__picture gallery__picture_big">
                                 <img src="./img/inhtml/photo-1.jpg" alt="">
                             </div>
@@ -88,9 +96,8 @@
                                         <img src="./img/icons/like-icon.png" alt="" class="gallery__icon-white">
                                         <img src="./img/icons/like-icon-grey.png" alt="" class="gallery__icon-grey">
                                     </div>
-                                    <div class="gallery__count">1350</div>
+                                    <div class="gallery__count">130</div>
                                 </div>
-                                </>
                             </div>
                         </div>
                         <div class="gallery__item">
